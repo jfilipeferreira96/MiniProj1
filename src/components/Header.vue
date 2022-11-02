@@ -1,11 +1,11 @@
 <template>
-  <nav class="py-10 mb-12 flex justify-between dark:text-white">
+  <nav class="py-10 mb-12 flex justify-between dark:text-gray-200">
     <h1 class="font-burtons text-xl"><router-link to="/">jFerreira</router-link></h1>
     <ul class="flex items-center">
       <!-- <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} class=" cursor-pointer text-2xl" /></li> -->
       <li class="nav-item">
         <router-link
-          class="nav-link block pr-2 lg:px-2 py-2 text-white hover:text-teal-500 focus:text-teal-500 transition duration-150 ease-in-out"
+          class="nav-link block pr-2 lg:px-2 py-2 hover:text-teal-500 focus:text-teal-500 transition duration-150 ease-in-out"
           to="/services"
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
@@ -15,7 +15,7 @@
       </li>
       <li class="nav-item mb-2 lg:mb-0">
         <router-link
-          class="nav-link block pr-2 lg:px-2 py-2 text-white hover:text-teal-500 focus:text-teal-500 transition duration-150 ease-in-out"
+          class="nav-link block pr-2 lg:px-2 py-2 hover:text-teal-500 focus:text-teal-500 transition duration-150 ease-in-out"
           to="/hoobies"
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"

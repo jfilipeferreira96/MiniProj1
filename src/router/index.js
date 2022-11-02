@@ -15,7 +15,7 @@ const routes = [
     name: "services",
     component: HomeView,
     meta: {
-      title: "What I do",
+      title: "What I do - José Ferreira",
     },
   },
   {
@@ -23,7 +23,7 @@ const routes = [
     name: "hoobies",
     component: HomeView,
     meta: {
-      title: "Hobbies",
+      title: "Hobbies - José Ferreira",
     },
   },
 ];
