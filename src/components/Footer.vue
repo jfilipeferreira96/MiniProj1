@@ -4,7 +4,7 @@
     <div class="sm:flex sm:items-center sm:justify-between">
       <span class="text-sm text-gray-500 sm:text-center flex justify-center dark:text-gray-400">
         © 2022
-        <a href="https://github.com/jfilipeferreira96" class="hover:underline">jFerreira™</a>
+        <a href="https://github.com/jfilipeferreira96" class="px-2 hover:underline">jFerreira™</a>
         . All Rights Reserved.
       </span>
       <div class="flex mt-4 space-x-6 justify-center sm:mt-0">

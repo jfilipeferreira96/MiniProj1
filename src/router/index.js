@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import HobbiesView from '../views/HobbiesView.vue';
+import HobbiesView from "../views/HobbiesView.vue";
+import SkillsView from "../views/SkillsView.vue";
 
 const routes = [
   {
@@ -12,11 +13,11 @@ const routes = [
     },
   },
   {
-    path: "/services",
-    name: "services",
-    component: HobbiesView,
+    path: "/skills",
+    name: "skills",
+    component: SkillsView,
     meta: {
-      title: "What I do - José Ferreira",
+      title: "My skills - José Ferreira",
     },
   },
   {

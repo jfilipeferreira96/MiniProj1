@@ -1,60 +1,36 @@
 <template>
   <section>
-    <div>
-      <h3 class="text-3xl py-1 dark:text-white ">Services I offer</h3>
-      <p class="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        Since the beginning of my journey as a freelance designer and
-        developer, I've done remote work for
-        <span class="text-teal-500"> agencies </span>
-        consulted for <span class="text-teal-500">startups </span>
-        and collaborated with talanted people to create digital products
-        for both business and consumer use.
-      </p>
-      <p class="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        I offer from a wide range of services, including brand design,
-        programming and teaching.
-      </p>
+    <div class="text-center">
+      <h2 class="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400">Some of my Hoobies</h2>
+      <h3 class="text-2xl py-3 dark:text-white md:text-3xl">In my spare time I enjoy the following activities</h3>
     </div>
-    <div class="lg:flex gap-10">
-      <div class="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-        <h3 class="text-lg font-medium pt-8 pb-2  ">
-          Beautiful Designs
-        </h3>
-        <p class="py-2">
-          Creating elegant designs suited for your needs following core
-          design theory.
-        </p>
-        <h4 class="py-4 text-teal-600">Design Tools I Use</h4>
-        <p class="text-gray-800 py-1">Photoshop</p>
-        <p class="text-gray-800 py-1">Illustrator</p>
-        <p class="text-gray-800 py-1">Figma</p>
-        <p class="text-gray-800 py-1">Indesign</p>
-      </div>
-      <div class="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-        <h3 class="text-lg font-medium pt-8 pb-2 ">
-          Code your dream project
-        </h3>
-        <p class="py-2">
-          Do you have an idea for your next great website? Let's make it a
-          reality.
-        </p>
-        <h4 class="py-4 text-teal-600">Design Tools I Use</h4>
-        <p class="text-gray-800 py-1">Photoshop</p>
-        <p class="text-gray-800 py-1">Illustrator</p>
-        <p class="text-gray-800 py-1">Figma</p>
-        <p class="text-gray-800 py-1">Indesign</p>
-      </div>
-      <div class="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-        <h3 class="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-        <p class="py-2">
-          Are you interested in feedback for your current project? I can
-          give you tips and tricks to level it up.
-        </p>
-        <h4 class="py-4 text-teal-600">Design Tools I Use</h4>
-        <p class="text-gray-800 py-1">Photoshop</p>
-        <p class="text-gray-800 py-1">Illustrator</p>
-        <p class="text-gray-800 py-1">Figma</p>
-        <p class="text-gray-800 py-1">Indesign</p>
+
+    <div class="container py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:w-1/3">
+          <div class="h-full text-center">
+            <img alt="coffee" class="h-64 block mx-auto" src="../assets/takeaway-cup-dynamic-color.png" />
+            <p class="leading-relaxed"></p>
+            <span class="inline-block h-1 w-28 rounded bg-teal-600 mt-6 mb-6"></span>
+            <h2 class="text-2xl py-3 dark:text-white md:text-3xl">Coffee with Friends</h2>
+          </div>
+        </div>
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:w-1/3">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="h-64 block mx-auto" src="../assets/gym-dynamic-color.png" />
+            <p class="leading-relaxed"></p>
+            <span class="inline-block h-1 w-28 rounded bg-teal-600 mt-6 mb-6"></span>
+            <h2 class="text-2xl py-3 dark:text-white md:text-3xl">Gym</h2>
+          </div>
+        </div>
+        <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:w-1/3">
+          <div class="h-full text-center">
+            <img alt="tech" class="h-64 block mx-auto" src="../assets/computer-dynamic-color.png" />
+            <p class="leading-relaxed"></p>
+            <span class="inline-block h-1 w-28 rounded bg-teal-600 mt-6 mb-6"></span>
+            <h2 class="text-2xl py-3 dark:text-white md:text-3xl">Tech</h2>
+          </div>
+        </div>
       </div>
     </div>
   </section>
