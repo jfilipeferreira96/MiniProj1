@@ -7,9 +7,8 @@
         Freelancer providing services for programming. Give me a call and let's get cracking!
       </p>
 
-      <div class="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-        <!--  <Image src="{deved}" layout="fill" objectFit="cover" /> -->
-        <img src="../assets/manWithGlasses.png" alt="MyImage" />
+      <div class="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 max-sm:w-60 max-sm:h-60 relative overflow-hidden mt-20 md:h-96 md:w-96">
+        <img src="../assets/manWithGlasses.png" alt="MyImage" id="mainImage" class="relative"/>
       </div>
     </div>
   </section>
