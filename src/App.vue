@@ -1,6 +1,6 @@
 <template>
   <div :class="[darkMode === true ? 'dark' : '', styles]">
-    <main class="bg-slate-200 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+    <main class="bg-slate-200 px-10 dark:bg-gray-900 md:px-20 lg:px-40 h-full xl:h-screen">
       <Header :darkMode="darkMode" v-on:changeDarkMode="updateThemeMode()" />
       <router-view />
       <Footer />
@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       darkMode: true,
-      styles: "h-screen lg:overflow-hidden",
+      styles: "lg:overflow-hidden",
     };
   },
   methods: {
