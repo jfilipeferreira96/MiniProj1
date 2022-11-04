@@ -4,6 +4,8 @@
 
 ### Project preview:
 
+https://jfilipeferreira96.github.io/MiniProj1
+
 ### Wireframe of this project:
 
 https://www.figma.com/file/ccfCrXEpUyghNnm44qTINA/Untitled?node-id=0%3A1

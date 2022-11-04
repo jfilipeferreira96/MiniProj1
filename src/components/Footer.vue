@@ -36,7 +36,7 @@
           </svg>
           <span class="sr-only">Twitter page</span>
         </a>
-        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+        <a href="https://github.com/jfilipeferreira96" target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
               fill-rule="evenodd"
