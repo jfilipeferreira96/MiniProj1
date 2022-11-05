@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-4 bg-slate-200 sm:p-6 dark:bg-gray-900">
+  <footer class="p-4 bg-slate-200 sm:p-6 dark:bg-gray-900 bottom-0">
     <hr class="my-6 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="sm:flex sm:items-center sm:justify-between whitespace-nowrap">
       <span class="text-sm text-gray-500 sm:text-center flex justify-center dark:text-gray-400">
