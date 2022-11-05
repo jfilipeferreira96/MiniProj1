@@ -8,7 +8,7 @@ https://jfilipeferreira96.github.io/MiniProj1
 
 ### Wireframe of this project:
 
-https://www.figma.com/file/ccfCrXEpUyghNnm44qTINA/Untitled?node-id=0%3A1
+https://www.figma.com/file/ccfCrXEpUyghNnm44qTINA/MiniProj1---Jos%C3%A9-Filipe-Ferreira?node-id=0%3A1
 
 ## Aluno: José Filipe Ferreira (utad80112)
 
